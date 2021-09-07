@@ -1,0 +1,16 @@
+beautifulsoup4==4.9.1
+bs4==0.0.1
+certifi==2020.4.5.1
+chardet==3.0.4
+idna==2.9
+numpy==1.18.5
+opencv-python==4.2.0.34
+peewee==3.13.3
+Pillow==7.2.0
+pony==0.7.13
+psycopg2==2.8.5
+requests==2.23.0
+six==1.14.0
+soupsieve==2.0.1
+urllib3==1.25.9
+vk-api==11.8.0

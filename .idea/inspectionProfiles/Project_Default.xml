@@ -1,0 +1,45 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="astrobox" />
+            <item index="1" class="java.lang.String" itemvalue="peewee" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app_documents.models.Contract.*" />
+          <option value="app_documents.models.DeliveryConditions.*" />
+          <option value="app_documents.models.Currency.*" />
+          <option value="app_documents.models.PaymentConditions.*" />
+          <option value="app_documents.models.Specification.*" />
+          <option value="app_storage.models.ProductStore.*" />
+          <option value="app_documents.models.Invoice.*" />
+          <option value="app_crm.models.ContractorComment.*" />
+          <option value="app_crm.models.ContractorFileCategory.*" />
+          <option value="app_crm.models.ContractorContactPerson.*" />
+          <option value="app_crm.models.Contractor.*" />
+          <option value="app_documents.models.Order.*" />
+          <option value="app_crm.models.Lead.*" />
+          <option value="app_crm.models.ContactPersonContactType.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
